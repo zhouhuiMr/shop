@@ -3,6 +3,7 @@ package com.clientuser.model;
 import java.util.HashMap;
 import javax.servlet.http.HttpServletResponse;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 
 import com.Data.Mapper.clientUserDao;
@@ -13,6 +14,7 @@ import com.clientuser.clientUserLoginAbstract;
 import com.common.tool.JWTOperate;
 import com.common.tool.SHA256Str;
 
+@Primary
 @Service
 public class clientUserByTelPassModel extends clientUserLoginAbstract{
 	
