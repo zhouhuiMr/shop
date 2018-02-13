@@ -14,6 +14,7 @@ import com.Object.clientUser;
 import com.Object.resultEnum;
 import com.Object.resultObject;
 import com.clientuser.clientUserLoginAbstract;
+import com.clientuser.model.clientUserByTelPassModel;
 import com.config.initConfig;
 
 @Controller
@@ -22,7 +23,7 @@ public class clientUserController {
 	private final static Object codeLock = new Object();
 	
 	@Autowired
-	private clientUserLoginAbstract userModel;
+	private clientUserByTelPassModel userModel;
 	
 	@Autowired
 	private HttpServletRequest req;

@@ -14,7 +14,6 @@ import com.clientuser.clientUserLoginAbstract;
 import com.common.tool.JWTOperate;
 import com.common.tool.SHA256Str;
 
-@Primary
 @Service
 public class clientUserByTelPassModel extends clientUserLoginAbstract{
 	
